@@ -1,4 +1,3 @@
-
 // Import JQuery to the document
 var imported = document.createElement('script');
 imported.src = 'http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js';
@@ -13,7 +12,6 @@ function FBPageLoad()
 
 var SomeFocusMethod = function()
 {
-    console.log("SomeFocusMethod");
     // Go Online!
     Firebase.goOnline();
     console.log("Firebase is now online!");
@@ -24,7 +22,6 @@ var SomeFocusMethod = function()
 
 var SomeBlurMethod = function() 
 { 
-    console.log("SomeBlurMethod");
     // Go Offline!
     Firebase.goOffline();
     console.log("Firebase is now offline!");
